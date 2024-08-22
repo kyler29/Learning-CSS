@@ -1,0 +1,85 @@
+.bodyelements{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.images{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:700px;
+    height: 1024px;
+    background-color: rgba(0,0,0,0.8);
+ }
+ .headertext{
+    margin-bottom: 0px;
+    font-size: 39px;
+    color:grey;
+ }
+.line{
+    width:550px;
+    height: 5px;
+    border-radius: 20px;
+    background-color: grey;
+    margin-bottom: 50px;
+    margin-top: 0px;
+
+}
+.imagecontainer1 {
+    position: relative;
+    /* display: inline-block; */
+   width: 550px;
+   height: 250px;
+   border-radius: 30px;
+    background-image: url(EARTH.jpg);
+   margin-bottom: 20px;
+   padding-left: 40px;
+   border: 2px solid grey;
+}
+.imagecontainer2 {
+    position: relative;
+    /* display: inline-block; */
+   width: 550px;
+   height: 250px;
+   border-radius: 30px;
+    background-image: url(flowers-background-image.jpg);
+   margin-bottom: 20px;
+   padding-left: 40px;
+   padding-bottom: 25px;
+   border: 2px solid grey;
+}
+.imagecontainer3 {
+    position: relative;
+    /* display: inline-block; */
+   width: 550px;
+   height: 250px;
+   border-radius: 30px;
+    background-image: url(HD-wallpaper-california-sunset-street-sunset.jpg);
+   margin-bottom: 20px;
+   padding-left: 40px;
+   border: 2px solid grey;
+}
+.overlay-text{
+    color: #fff;
+    font-size: 25px;
+    margin-top: 150px;
+    margin-bottom: 0px;
+    
+   
+}
+.smallcircle{
+    color:white;
+    border: 1px solid white;
+    width:90px;
+    height:25px;
+    border-radius: 100%;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   padding-left: 10px;
+   margin-top: 10px;
+
+
+}
